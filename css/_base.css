@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+body {
+    background: #070638;
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #070638 0%, #05056B 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #070638 0%, #05056B 100%);
+    /* Opera */
+    background-image: -o-radial-gradient(center, circle farthest-corner, #070638 0%, #05056B 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 447, color-stop(0, #070638), color-stop(1, #05056B));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #070638 0%, #05056B 100%);
+    /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(circle farthest-corner at center, #070638 0%, #05056B 100%);
+}
+
+a {
+    color: #069;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+   /* text-decoration: underline; */
+    color: #069;
+}
+
+/*
+ * Remove text-shadow in selection highlight.
+ * These selection declarations have to be separate.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/* Typography
+   ========================================================================== */
+
+h1 {
+    margin: 0 0.5em 0.75em;
+    font-size: 3em;
+    line-height: 1.2em;
+    font-family: Tienne;
+    font-weight: 900;
+    margin: 60px 0 90px;
+}
+
+h2 {
+    margin: 1.5em 0 1em;
+    font-size: 1.8em;
+}
+
+h3 {
+    margin: 0 0 0.5em;
+    color: #555;
+    font-size: 1.25em;
+}
+
+p {
+    margin: 0 0 2em;
+}

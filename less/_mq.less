@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   ========================================================================== */
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+@media only screen and (max-width: 720px) {
+    .site-logo,
+    .site-nav {
+        float: none;
+    }
+
+    .site-nav li {
+        margin: 0 0.5em;
+    }
+
+    .thumbnail {
+        float: none;
+        margin-left: 0;
+        max-width: 98%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .clear {
+        clear:both;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+
+    .thumbnail, .ref-thumbnail, .ref-full-thumbnail, .pull-right {
+        float: left;
+    }
+
+    .ref-full-thumbnail {
+        max-width: 340px;
+    }
+
+    .thumbnail img, .ref-thumbnail img, .ref-full-thumbnail img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .grid-cell {
+        width: 100%;
+    }
+
+    .logo {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    html {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
