@@ -304,7 +304,7 @@ p{margin:0 0 2em;}
 .star,.icon-star{color:#e08524;}
 .thumbnail{float:right;display:inline-block;padding:4px;line-height:1;border:1px solid #DDD;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);max-width:100%;margin:0 0 10px 10px;}
 .person-thumbnail{float:none;margin:0;}
-.ref-thumbnail{float:left;max-width:340px;}
+.ref-thumbnail{float:left;max-width:340px;margin:0 10px 10px 0;}
 .ref-full-thumbnail{max-width:700px;}
 .ref-textbox{max-width:340px;float:left;}
 legend{display:block;margin:4px 0;text-align:center;width:100%;color:#555;white-space:pre-wrap;}
