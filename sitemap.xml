@@ -4,36 +4,10 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 <url>
   <loc>http://www.innovai.fi/</loc>
-  <lastmod>2013-01-02T11:13:33+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-10-10T11:13:33+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.innovai.fi/yritys/</loc>
-  <lastmod>2013-01-02T11:13:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.innovai.fi/referenssit/</loc>
-  <lastmod>2013-01-02T11:13:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.innovai.fi/saavutukset/</loc>
-  <lastmod>2013-01-02T11:13:35+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.innovai.fi/yhteystiedot/</loc>
-  <lastmod>2013-01-02T11:13:36+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
 </url>
 </urlset>

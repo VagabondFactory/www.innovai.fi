@@ -1,0 +1,114 @@
+
+$blue: #070638;
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $blue;
+
+  font-family: -apple-system, BlinkMacSystemFont, Crimson, Helvetica, Verdana, Arial, sans-serif;
+  color: #fff;
+  color: rgba(255,255,255, .8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1rem;
+  text-align: center;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0 0 1.4em;
+}
+a {
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+  &:hover, &:focus, &:active {
+    color: #fff;
+  }
+}
+
+header, article, footer {
+  display: flex;
+  padding: 40px;
+}
+
+header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .logo {
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+  }
+  .esittely {
+    width: 600px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+article {
+  flex: 1 1 auto;
+  flex-direction: column;
+
+  background-color: #FFF;
+
+  font-size: .9rem;
+  color: #333;
+  color: rgba(0,0,0,.9);
+
+  & > * {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+
+  a {
+    color: #1a187f;
+    text-decoration: none;
+    &:hover, &:focus, &:active {
+      color: $blue;
+    }
+  }
+  .yhteystiedot {
+    margin-bottom: .2rem;
+  }
+  .linkedin {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  font-size: .8rem;
+  font-weight: 300;
+
+  .copyright, .production {
+    flex: 1 1 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  footer {
+    flex-direction: column;
+  }
+}
