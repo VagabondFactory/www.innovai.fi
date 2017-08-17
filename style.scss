@@ -1,18 +1,20 @@
 
-$blue: #070638;
-
 html, body {
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: $blue;
+html {
+  background: #0d080a url(taustakuva.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
 
-  font-family: -apple-system, BlinkMacSystemFont, Crimson, Helvetica, Verdana, Arial, sans-serif;
+body {
+  background-color: rgba(10, 9, 7, 0.3);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: #fff;
-  color: rgba(255,255,255, .8);
-  font-size: 16px;
+  color: rgba(#fff, .9);
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
   font-size: 1rem;
@@ -27,16 +29,17 @@ p {
   margin: 0 0 1.4em;
 }
 a {
-  color: rgba(255,255,255,.8);
+  color: #03A9F4;
   text-decoration: none;
   &:hover, &:focus, &:active {
     color: #fff;
   }
 }
 
-header, article, footer {
+header, article, footer, aside {
   display: flex;
-  padding: 40px;
+  padding: 40px 40px 20px;
+  background-color: rgba(10, 9, 7, 0.7);
 }
 
 header {
@@ -50,23 +53,45 @@ header {
     height: auto;
   }
   .esittely {
-    width: 600px;
+    width: 700px;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 20px;
     max-width: 90%;
     margin: 0 auto;
+  }
+}
+
+main {
+  display: flex;
+  background: transparent;
+
+  @media(max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+aside {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(10, 9, 7, 0.7);
+    padding: 5px 5px 0;
+  }
+  p {
+    background-color: rgba(10, 9, 7, 0.7);
+    padding: 10px 10px 20px;
+    font-size: .9rem;
   }
 }
 
 article {
   flex: 1 1 auto;
   flex-direction: column;
-
-  background-color: #FFF;
-
-  font-size: .9rem;
-  color: #333;
-  color: rgba(0,0,0,.9);
 
   & > * {
     max-width: 768px;
@@ -77,14 +102,13 @@ article {
   h1 {
     font-size: 1.7rem;
     font-weight: 300;
-  }
 
-  a {
-    color: #1a187f;
-    text-decoration: none;
-    &:hover, &:focus, &:active {
-      color: $blue;
+    @media(max-width: 900px) {
+      font-size: 1.6rem;
     }
+  }
+  p {
+    color: rgba(#fff, .9);
   }
   .yhteystiedot {
     margin-bottom: .2rem;
@@ -95,15 +119,19 @@ article {
 }
 
 footer {
-  font-size: .8rem;
-  font-weight: 300;
-
+  // margin-left: 50%;
   .copyright, .production {
     flex: 1 1 50%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    color: rgba(#fff, .9);
+    font-size: .8rem;
+    a {
+      color: rgba(#fff, .9);
+    }
   }
 }
 
